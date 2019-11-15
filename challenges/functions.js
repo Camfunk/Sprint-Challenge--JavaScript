@@ -38,6 +38,8 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation:
 
+// nestedFunction can search inside of the scope of myFunction calling for the properties that it possesses, it will search inside of it's own scope then call myFunction if it can't find the properties it is searching for inside of it's own scope.
+
 const external = "I'm outside the function";
 
 function myFunction() {
@@ -50,3 +52,7 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+const pushForStandup =
+  "Code needed to be updated so I could submit answered questions in readme";
+//console.log(pushForStandup);
